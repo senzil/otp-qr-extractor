@@ -1,0 +1,40 @@
+{
+  "name": "@senzil/otp-qr-extractor",
+  "version": "1.0.0-rc",
+  "description": "CLI tool to extract OTP secrets from QR code images (e.g. from Google Authenticator).",
+  "type": "module",
+  "bin": {
+    "decode-qr": "./bin/cli.js"
+  },
+  "author": "Senzil SRL <contacto@senzil.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "otp",
+    "qr",
+    "extractor",
+    "cli",
+    "authenticator",
+    "TOPT"
+  ],
+  "dependencies": {
+    "hi-base32": "^0.5.1",
+    "jimp": "^0.22.10",
+    "jsqr": "^1.4.0",
+    "protobufjs": "^7.5.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "qrcode": "^1.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senzil/otp-qr-extractor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/senzil/otp-qr-extractor/issues"
+  },
+  "homepage": "https://github.com/senzil/otp-qr-extractor#readme"
+}
